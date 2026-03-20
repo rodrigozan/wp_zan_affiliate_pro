@@ -1,0 +1,14 @@
+/* Admin CSS — Zan Affiliate Pro */
+
+.zap-admin-wrap h1 { display: flex; align-items: center; gap: .5rem; }
+.zap-admin-tabs { margin-bottom: 1.5rem; }
+.zap-settings-section { margin-bottom: 2rem; }
+.zap-settings-section h2 {
+    font-size: 1rem;
+    color: #1f2937;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+.zap-char-counter { font-size: .75rem; color: #6b7280; margin-top: .25rem; }
+.zap-char-counter.over-limit { color: #ef4444; }
