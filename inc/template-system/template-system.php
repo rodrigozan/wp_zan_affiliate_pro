@@ -93,6 +93,88 @@ class ZAP_Template_System {
             'preview'     => ZAP_URI . '/assets/images/templates/mini-landing.jpg',
         ] );
 
+        // ── 10 Templates estilo BeTheme para Afiliados ────────────────────
+
+        self::register( 'review-blog', [
+            'name'        => __( 'Review Blog', 'zan-affiliate-pro' ),
+            'description' => __( 'Blog de review com sidebar sticky, veredicto rápido, prós/contras e CTA. Estilo Wirecutter.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page', 'post' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/review-blog.jpg',
+        ] );
+
+        self::register( 'niche-landing', [
+            'name'        => __( 'Niche Landing Page', 'zan-affiliate-pro' ),
+            'description' => __( 'Página de nicho com hero + features + depoimentos + CTA. Ideal para "melhor X de [ano]".', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/niche-landing.jpg',
+        ] );
+
+        self::register( 'top10-listicle', [
+            'name'        => __( 'Top 10 Listicle', 'zan-affiliate-pro' ),
+            'description' => __( 'Ranking numerado de produtos com nota, prós/contras e botão por item. SEO-first.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page', 'post' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/top10-listicle.jpg',
+        ] );
+
+        self::register( 'software-review', [
+            'name'        => __( 'Software / SaaS Review', 'zan-affiliate-pro' ),
+            'description' => __( 'Review de ferramenta com screenshot, planos de preço, features grid e veredicto. Estilo G2/Capterra.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page', 'post' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/software-review.jpg',
+        ] );
+
+        self::register( 'finance-comparator', [
+            'name'        => __( 'Finance Comparator', 'zan-affiliate-pro' ),
+            'description' => __( 'Comparador de produtos financeiros (cartões, seguros, corretoras) com hero sério e cards ranqueados.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page', 'post' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/finance-comparator.jpg',
+        ] );
+
+        self::register( 'health-product', [
+            'name'        => __( 'Health & Produto', 'zan-affiliate-pro' ),
+            'description' => __( 'Página de produto de saúde/suplemento com hero visual, benefícios, depoimentos e CTA de urgência.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/health-product.jpg',
+        ] );
+
+        self::register( 'magazine', [
+            'name'        => __( 'Magazine / Portal', 'zan-affiliate-pro' ),
+            'description' => __( 'Portal de conteúdo com post destaque, grid de últimas publicações e sidebar de mais lidos.', 'zan-affiliate-pro' ),
+            'category'    => 'layout',
+            'post_types'  => [ 'page' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/magazine.jpg',
+        ] );
+
+        self::register( 'course-review', [
+            'name'        => __( 'Course / Infoproduto', 'zan-affiliate-pro' ),
+            'description' => __( 'Review de curso online com grade curricular expansível, depoimentos de alunos e CTA de vaga.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page', 'post' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/course-review.jpg',
+        ] );
+
+        self::register( 'ecommerce-showcase', [
+            'name'        => __( 'E-commerce Showcase', 'zan-affiliate-pro' ),
+            'description' => __( 'Vitrine de produtos com filtro por categoria, grid e cards com preço/rating/CTA. Estilo Amazon.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/ecommerce-showcase.jpg',
+        ] );
+
+        self::register( 'squeeze-page', [
+            'name'        => __( 'Squeeze Page / Captura', 'zan-affiliate-pro' ),
+            'description' => __( 'Página de captura de leads sem distrações: hero + benefícios + formulário opt-in. Conversão máxima.', 'zan-affiliate-pro' ),
+            'category'    => 'affiliate',
+            'post_types'  => [ 'page' ],
+            'preview'     => ZAP_URI . '/assets/images/templates/squeeze-page.jpg',
+        ] );
+
         // Allow plugins/child-themes to add templates
         do_action( 'zap_register_templates' );
     }

@@ -57,6 +57,7 @@ require_once ZAP_INC . '/legal/cookie-notice.php';
 // ── Admin ─────────────────────────────────────────────────────────────────────
 require_once ZAP_INC . '/admin/options-page.php';
 require_once ZAP_INC . '/admin/meta-boxes.php';
+require_once ZAP_INC . '/admin/template-meta-fields.php';
 
 // ── Push Notifications ────────────────────────────────────────────────────────
 require_once ZAP_INC . '/push/push-notifications.php';
